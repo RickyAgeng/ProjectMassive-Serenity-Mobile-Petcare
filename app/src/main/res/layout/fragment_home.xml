@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="338dp"
+        android:layout_height="194dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/banner"
+        android:clipToOutline="true"
+        android:elevation="10.02dp" />
+
+
+    <TextView
+        android:id="@+id/kategori_hewanpel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori hewan peliharaan"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="280dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@drawable/iconkucing"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kucing"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="100dp"/>
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@drawable/iconanjing"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anjing"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="210dp"/>
+
+    <TextView
+        android:id="@+id/kategori_rekomendok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Dokter"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="420dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+</FrameLayout>
