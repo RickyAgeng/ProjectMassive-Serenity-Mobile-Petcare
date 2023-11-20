@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Dokter"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="420dp"
         android:textStyle="bold"
         android:textSize="16sp"
         />
@@ -72,7 +72,7 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp">
+        android:layout_marginTop="460dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="drh.Alexandra"
+                    android:text="drh. Alexandra"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginTop="159dp"
@@ -103,18 +103,18 @@
                     android:textSize="12sp"
                     android:layout_marginTop="176dp"
                     android:layout_marginStart="20dp" />
-<!--                <ImageView-->
-<!--                    android:layout_width="65dp"-->
-<!--                    android:layout_height="12dp"-->
-<!--                    android:src=""-->
-<!--                    android:layout_marginTop="190dp"-->
-<!--                    android:layout_marginStart="20dp"/>-->
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/rating"
+                    android:layout_marginTop="193dp"
+                    android:layout_marginStart="20dp"/>
                 <Button
                     android:layout_width="86dp"
                     android:layout_height="39dp"
                     android:text="Chat"
                     android:textColor="@color/white"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="220dp"
                     android:layout_marginStart="20dp"
                     />
             </RelativeLayout>
@@ -126,12 +126,12 @@
                 <ImageView
                     android:layout_width="148dp"
                     android:layout_height="156dp"
-                    android:src="@drawable/rekomalexandra"
+                    android:src="@drawable/rekomflorentin"
                     android:layout_marginStart="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="drh.Alexandra"
+                    android:text="drh. Florentin"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginTop="159dp"
@@ -143,18 +143,18 @@
                     android:textSize="12sp"
                     android:layout_marginTop="176dp"
                     android:layout_marginStart="20dp" />
-<!--                <ImageView-->
-<!--                    android:layout_width="65dp"-->
-<!--                    android:layout_height="12dp"-->
-<!--                    android:src=""-->
-<!--                    android:layout_marginTop="190dp"-->
-<!--                    android:layout_marginStart="20dp"/>-->
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/rating"
+                    android:layout_marginTop="193dp"
+                    android:layout_marginStart="20dp"/>
                 <Button
                     android:layout_width="86dp"
                     android:layout_height="39dp"
                     android:text="Chat"
                     android:textColor="@color/white"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="220dp"
                     android:layout_marginStart="20dp"
                     />
             </RelativeLayout>
@@ -166,12 +166,12 @@
                 <ImageView
                     android:layout_width="148dp"
                     android:layout_height="156dp"
-                    android:src="@drawable/rekomalexandra"
+                    android:src="@drawable/rekomsusanto"
                     android:layout_marginStart="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="drh.Alexandra"
+                    android:text="drh. Susanto"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginTop="159dp"
@@ -183,18 +183,18 @@
                     android:textSize="12sp"
                     android:layout_marginTop="176dp"
                     android:layout_marginStart="20dp" />
-<!--                <ImageView-->
-<!--                    android:layout_width="65dp"-->
-<!--                    android:layout_height="12dp"-->
-<!--                    android:src=""-->
-<!--                    android:layout_marginTop="190dp"-->
-<!--                    android:layout_marginStart="20dp"/>-->
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/rating"
+                    android:layout_marginTop="193dp"
+                    android:layout_marginStart="20dp"/>
                 <Button
                     android:layout_width="86dp"
                     android:layout_height="39dp"
                     android:text="Chat"
                     android:textColor="@color/white"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="220dp"
                     android:layout_marginStart="20dp"
                     />
             </RelativeLayout>
@@ -206,12 +206,12 @@
                 <ImageView
                     android:layout_width="148dp"
                     android:layout_height="156dp"
-                    android:src="@drawable/rekomalexandra"
+                    android:src="@drawable/rekomida"
                     android:layout_marginStart="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="drh.Alexandra"
+                    android:text="drh. Ida Sukma"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginTop="159dp"
@@ -223,18 +223,18 @@
                     android:textSize="12sp"
                     android:layout_marginTop="176dp"
                     android:layout_marginStart="20dp" />
-<!--                <ImageView-->
-<!--                    android:layout_width="65dp"-->
-<!--                    android:layout_height="12dp"-->
-<!--                    android:src="@drawable/icon"-->
-<!--                    android:layout_marginTop="190dp"-->
-<!--                    android:layout_marginStart="20dp"/>-->
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/rating"
+                    android:layout_marginTop="193dp"
+                    android:layout_marginStart="20dp"/>
                 <Button
                     android:layout_width="86dp"
                     android:layout_height="39dp"
                     android:text="Chat"
                     android:textColor="@color/white"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="220dp"
                     android:layout_marginStart="20dp"
                     />
             </RelativeLayout>
