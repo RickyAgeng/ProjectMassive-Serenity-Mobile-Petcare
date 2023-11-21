@@ -6,12 +6,239 @@
     tools:context=".ServisFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Servis Fragment"
-        android:textSize="36sp"
-        android:textColor="@color/oren"
-        android:gravity="center"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="79dp"
+        android:contentDescription="Deskripsi untuk ScrollView">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/card_service_satu"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan Vaksinasi"
+                    android:layout_marginStart="122dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaksinasi atau pemberian vaksin pada hewan untuk membantu sistem imun hewan tersebut mengembangkan perlindungan terhadap penyakit infeksi"
+                    android:textAlignment="center"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginEnd="69dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more..."
+                    android:layout_marginStart="162dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="135dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/card_service_dua"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan Vaksinasi"
+                    android:layout_marginStart="122dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaksinasi atau pemberian vaksin pada hewan untuk membantu sistem imun hewan tersebut mengembangkan perlindungan terhadap penyakit infeksi"
+                    android:textAlignment="center"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginEnd="69dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more..."
+                    android:layout_marginStart="162dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="135dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/card_service_satu"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan Vaksinasi"
+                    android:layout_marginStart="122dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaksinasi atau pemberian vaksin pada hewan untuk membantu sistem imun hewan tersebut mengembangkan perlindungan terhadap penyakit infeksi"
+                    android:textAlignment="center"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginEnd="69dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more..."
+                    android:layout_marginStart="162dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="135dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/card_service_dua"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan Vaksinasi"
+                    android:layout_marginStart="122dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaksinasi atau pemberian vaksin pada hewan untuk membantu sistem imun hewan tersebut mengembangkan perlindungan terhadap penyakit infeksi"
+                    android:textAlignment="center"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginEnd="69dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more..."
+                    android:layout_marginStart="162dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="135dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/card_service_satu"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan Vaksinasi"
+                    android:layout_marginStart="122dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaksinasi atau pemberian vaksin pada hewan untuk membantu sistem imun hewan tersebut mengembangkan perlindungan terhadap penyakit infeksi"
+                    android:textAlignment="center"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginEnd="69dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more..."
+                    android:layout_marginStart="162dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="135dp"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

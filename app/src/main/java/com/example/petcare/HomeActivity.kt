@@ -46,21 +46,21 @@ class HomeActivity : AppCompatActivity() {
         }
         replaceFragment(HomeFragment())
 
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_home)
-        initUi()
+//        binding = DataBindingUtil.setContentView(this,R.layout.activity_home)
+//        initUi()
     }
 
     private fun replaceFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit()
     }
 
-    private fun initUi(){
-        binding.Toolbar.ivLogo.setOnClickListener {
-            Toast.makeText(this, "Back Button Clicked",Toast.LENGTH_SHORT).show()
-        }
-        binding.Toolbar.ivNotification.setOnClickListener {
-            Toast.makeText(this, "Notification Button Clicked",Toast.LENGTH_SHORT).show()
-        }
-        binding.Toolbar.tvTitle.text = "Hello, Jordan !"
-    }
+//    private fun initUi(){
+//        binding.Toolbar.ivLogo.setOnClickListener {
+//            Toast.makeText(this, "Back Button Clicked",Toast.LENGTH_SHORT).show()
+//        }
+//        binding.Toolbar.ivNotification.setOnClickListener {
+//            Toast.makeText(this, "Notification Button Clicked",Toast.LENGTH_SHORT).show()
+//        }
+//        binding.Toolbar.tvTitle.text = "Hello, Jordan !"
+//    }
 }
