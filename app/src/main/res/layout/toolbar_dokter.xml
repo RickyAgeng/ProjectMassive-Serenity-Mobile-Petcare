@@ -5,13 +5,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/oren">
+        android:background="@color/white">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivback_service"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_arrowback_white"
+            android:src="@drawable/ic_arrow_back"
             android:padding="10dp"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -22,13 +22,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@+id/ivback_service"
-            android:text="Layanan Service"
+            android:text="List Dokter"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="63dp"
+            android:layout_marginStart="100dp"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

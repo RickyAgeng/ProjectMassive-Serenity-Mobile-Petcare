@@ -8,12 +8,12 @@
         android:layout_height="match_parent"
         tools:context=".HomeActivity">
 
-        <include
-            android:id="@+id/Toolbar"
-            layout="@layout/toolbar"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+<!--        <include-->
+<!--            android:id="@+id/Toolbar"-->
+<!--            layout="@layout/toolbar"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
         <FrameLayout
             android:id="@+id/frame_container"
             android:layout_width="match_parent"
