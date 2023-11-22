@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiwayatActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FF6C22"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="145dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrowback_white"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="30dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="220dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="fill"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#F7CE72"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="320dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/foto_alex" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:text="drh. Alexandra"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="80dp"
+            android:text="Keluhan :"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="125dp"
+            android:text="Rp. 50.000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="104dp"
+            android:text="Kucing Diare tiada henti" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="55dp"
+            android:text="30 Menit" />
+
+        <Button
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="160dp"
+            android:text="Buat Jadwal Lagi"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="220dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="fill"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#F7CE72"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="320dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/foto_susanto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:text="drh. Susanto"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="80dp"
+            android:text="Keluhan :"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="125dp"
+            android:text="Rp. 50.000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="104dp"
+            android:text="Anjing Liur Anjing Asin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="55dp"
+            android:text="1 Jam" />
+
+        <Button
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="160dp"
+            android:text="Buat Jadwal Lagi"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda Pernah Berkonsultasi"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingat pengalaman berbeda saat berkonsultasi disini?"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
