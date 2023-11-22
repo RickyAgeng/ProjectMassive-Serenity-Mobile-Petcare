@@ -31,6 +31,7 @@
         />
 
     <ImageView
+        android:id="@+id/ivkatekucing"
         android:layout_width="63dp"
         android:layout_height="63dp"
         android:src="@drawable/iconkucing"
@@ -45,6 +46,7 @@
         android:layout_marginStart="100dp"/>
 
     <ImageView
+        android:id="@+id/ivkateanjing"
         android:layout_width="63dp"
         android:layout_height="63dp"
         android:src="@drawable/iconanjing"

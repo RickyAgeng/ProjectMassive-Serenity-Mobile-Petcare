@@ -7,15 +7,15 @@
     <item
         android:id="@+id/bottom_service"
         android:title="Servis"
-        android:icon="@drawable/ic_message"/>
+        android:icon="@drawable/icon_service"/>
     <item
         android:id="@+id/bottom_dokter"
         android:title="Dokter"
-        android:icon="@drawable/ic_home"/>
+        android:icon="@drawable/icon_dokter"/>
     <item
         android:id="@+id/bottom_pesan"
         android:title="Pesan"
-        android:icon="@drawable/ic_message"/>
+        android:icon="@drawable/icon_pesan"/>
     <item
         android:id="@+id/bottom_profil"
         android:title="Profil"
